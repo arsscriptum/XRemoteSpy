@@ -1,0 +1,5 @@
+class MAIN Client{
+	Q_PROPERTY(QString username READ username WRITE setUsername NOTIFY usernameChanged)
+
+	int getRandomNumber();
+}

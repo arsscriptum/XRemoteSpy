@@ -1,0 +1,9 @@
+qlonglong __call_id = invokeOnPeer("%1Slot"%2%3);
+
+if(__call_id){
+	NoronRemoteCallBase *call = new NoronRemoteCallBase(NoronRemoteCallBase::EventLoop);
+        addCall(__call_id, call);
+	call->eventLoop->exec();
+        removeCall(__call_id);
+	delete call;
+}
