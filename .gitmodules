@@ -35,3 +35,6 @@
 [submodule "3rdparty/QHttpServer"]
 	path = 3rdparty/QHttpServer
 	url = https://github.com/qt-labs/qthttpserver.git
+[submodule "3rdparty/neuron"]
+	path = 3rdparty/neuron
+	url = https://github.com/HamedMasafi/Neuron.git
