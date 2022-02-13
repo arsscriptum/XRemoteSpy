@@ -1,7 +1,0 @@
-*.pro.user
-*.pro.user.*
-*.qbs.user
-Q.qbs.user.*
-
-build-*
-build

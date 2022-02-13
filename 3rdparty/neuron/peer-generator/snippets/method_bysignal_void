@@ -1,6 +1,0 @@
-qlonglong __call_id = invokeOnPeer("%1Slot"%2%3);
-
-if(__call_id){
-    NoronRemoteCallBase *call = new NoronRemoteCallBase(const_cast<QObject *>(obj), callbackSlot);
-    addCall(__call_id, call);
-}

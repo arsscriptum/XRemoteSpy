@@ -7,7 +7,7 @@
 #define RAT_CLIENT_VERSION "0.5.1"
 #define RAT_PLATFORM "windows"
 #define RAT_PLATFORM_NAME "Windows"
-#define RAT_ARCH "64"
+#define RAT_ARCH "32"
 #define RAT_OS_WINDOWS  
 #define RAT_USE_DAEMON 0
 #define RAT_KEY_LOGGER 1

@@ -1,6 +1,4 @@
-[submodule "3rdparty/neuron"]
-	path = 3rdparty/neuron
-	url = https://github.com/hamedmasafi/neuron.git
+
 [submodule "3rdparty/QtConsole"]
 	path = 3rdparty/QtConsole
 	url = https://github.com/uglide/QtConsole.git

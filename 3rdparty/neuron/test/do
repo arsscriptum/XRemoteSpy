@@ -1,7 +1,0 @@
-#!/bin/bash
-
-g++ -E test.h  > output.h 
-g++ -E test.cpp  > output.cpp 
-
-astyle output.h
-astyle output.cpp
